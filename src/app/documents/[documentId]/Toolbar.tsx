@@ -141,6 +141,7 @@ export const Toolbar = () => {
             {sections[2].map((item) => (
                 <ToolBarButton key={item.label} {...item} />
             ))}
+
         </div>
     )
 }
